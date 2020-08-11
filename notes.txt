@@ -1,6 +1,9 @@
 1. Particle Swarm Optimization : 
     This type of algorithm is inspired by the flocking behavior of birds and the schooling behavior of fish in nature. The goal of this type of algorithm is to have all the components locate a common goal and then gradually advance towards the position while exploring the various positions in a boundary. Each component must not collide with others, align their own heading to the average of other components and move towards the average position of the components. This algorithm is primarily applied in areas like robotics. Innovative researchers at Wyss Institute at Harvard have applied this type of intelligence to RoboBees, autonomous flying drones.
     
+    Algo Logic :
+    Suppose the following scenario: a group of birds are randomly searching food in an area. There is only one piece of food in the area being searched. All the birds do not know where the food is. But they know how far the food is in each iteration. So what's the best strategy to find the food? The effective one is to follow the bird which is nearest to the food. 
+    
 2. Bee’s Algorithm :  
   The bee’s algorithm was inspired by the unbelievable behavior of natural honey bees. In bee colonies, the hive will send out Scout bees. Scouts locate nectar, return to the hive and communicate their findings with other bees through a wiggle dance. The goal of a bee’s algorithm is to locate and explore various sites within a boundary. One example of the application of this algorithm is UNU, a software platform developed by Unanimous AI. The platform assembles groups of individuals to make collective decisions, and it allows users to answer questions as a swarm. Tech Republic reported that predictions about events went from being about 40 percent accurate when guessing as individuals to about 70 percent accurate as a swarm prediction.
   
