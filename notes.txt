@@ -1,6 +1,9 @@
 1. Particle Swarm Optimization : 
     This type of algorithm is inspired by the flocking behavior of birds and the schooling behavior of fish in nature. The goal of this type of algorithm is to have all the components locate a common goal and then gradually advance towards the position while exploring the various positions in a boundary. Each component must not collide with others, align their own heading to the average of other components and move towards the average position of the components. This algorithm is primarily applied in areas like robotics. Innovative researchers at Wyss Institute at Harvard have applied this type of intelligence to RoboBees, autonomous flying drones.
     
+    Good Reads 
+    1. https://nathanrooy.github.io/posts/2016-08-17/simple-particle-swarm-optimization-with-python/
+    
     Algo Logic :
     Suppose the following scenario: a group of birds are randomly searching food in an area. There is only one piece of food in the area being searched. All the birds do not know where the food is. But they know how far the food is in each iteration. So what's the best strategy to find the food? The effective one is to follow the bird which is nearest to the food. 
     
